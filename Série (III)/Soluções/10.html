@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+    <style>
+        form {
+            display: inline-block;
+        }
+
+        form button {
+            display: block;
+            margin-block: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="get">
+        <fieldset>
+            <legend>Dados</legend>
+
+            <div>
+                <label for="name-input">Nome: </label>
+                <input type="text" name="nome" id="name-input" placeholder="Seu nome"/>
+            </div>
+
+            <div>
+                <label for="age-input">Idade: </label>
+                <input type="number" name="idade" id="age-input" placeholder="Sua idade" />
+            </div>
+
+            <div>
+                <label for="password-input">Senha: </label>
+                <input type="password" name="senha" id="password-input" placeholder="Sua senha" />
+            </div>
+
+            <div>
+                <label for="color-input">Cor: </label>
+                <input type="color" name="cor" id="color-input" value="#faff00"/>
+            </div>
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

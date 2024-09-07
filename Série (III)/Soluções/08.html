@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 08</title>
+    <style>
+        form {
+            display: inline-block;
+        }
+        
+        label {
+            display: block;
+        }
+
+        form button {
+            display: block;
+            margin-block: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="get">
+        <fieldset>
+            <legend>Dados</legend>
+
+            <label for="name-input">Nome:</label>
+            <input type="text" name="nome" id="name-input"/>
+
+            <label for="comentarios-input">Comentários:</label>
+            <textarea name="comentario" id="comentarios-input">Seus comentários</textarea>
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
